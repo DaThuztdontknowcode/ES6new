@@ -18,9 +18,9 @@ class SoThu {
   capNhatThongTinDongVat(ten, loai, moTa) {
     if (this.danhSachDongVat.has(ten)) {
       this.danhSachDongVat.set(ten, { loai, moTa });
-      console.log(`Đã cập nhật thông tin cho ${ten}`);
+      console.log(`Đã cập nhật info cho ${ten}`);
     } else {
-      console.log(`Không tìm thấy động vật có tên là ${ten}`);
+      console.log(`ko tìm thấy động vật có tên là ${ten}`);
     }
   }
 }
